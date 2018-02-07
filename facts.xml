@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="mortal_kombat_komplete_edition">
+        <Description value="Mortal Kombat Komplete Edition"/>
+        <Evals>
+            <Eval id="money">false</Eval>
+            <Eval id="graphics">true</Eval>
+        </Evals>
+    </Fact>
+</Facts>
