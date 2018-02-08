@@ -4,12 +4,14 @@ import java.util.List;
 
 public abstract class Value {
 
+    boolean selectionType;
+    List<String> inputPatter;
 
     public List<String> getInputPattern() {
-        return null;
+        return inputPatter;
     }
 
     public boolean getSelectionType() {
-        return true;
+        return selectionType;
     }
 }

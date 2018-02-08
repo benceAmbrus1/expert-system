@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rules>
     <Rule id="money">
-        <Question>Do you have 30 Eur for a Game?</Question>
+        <Question>Do you have 20.000.000 HUF for a car?</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
@@ -11,14 +11,14 @@
             </Selection>
         </Answer>
     </Rule>
-    <Rule id="graphics">
-        <Question>Are graphics important for you?</Question>
+    <Rule id="comfort">
+        <Question>What is more important for you?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="yes"/>
+                <SingleValue value="comfort"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="no"/>
+                <SingleValue value="speed"/>
             </Selection>
         </Answer>
     </Rule>

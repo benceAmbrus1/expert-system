@@ -33,4 +33,8 @@ public class Fact {
 
         return description;
     }
+
+    public Map<String, Boolean> getValues() {
+        return values;
+    }
 }

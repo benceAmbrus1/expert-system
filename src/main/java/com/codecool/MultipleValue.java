@@ -4,11 +4,10 @@ import java.util.List;
 
 public class MultipleValue extends Value {
 
-    List<String> params;
-    boolean selctionType;
+    private List<String> params;
 
-    public MultipleValue(List<String> params, boolean selctionType){
+    public MultipleValue(List<String> params, boolean selectionType){
         this.params = params;
-        this.selctionType = selctionType;
+        this.selectionType = selectionType;
     }
 }

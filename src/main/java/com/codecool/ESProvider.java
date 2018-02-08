@@ -1,11 +1,24 @@
 package com.codecool;
 
-public class ESProvider {
-    FactParser factParser;
-    RuleParser ruleParser;
+import java.util.HashMap;
 
-    public ESProvider(FactParser factParser, RuleParser ruleParse){
-        this.factParser = factParser;
-        this.ruleParser = ruleParser;
+public class ESProvider {
+
+
+    private FactRepository factRepository;
+    private RuleRepository ruleRepository;
+    private HashMap<String, Boolean> answers = new HashMap<>();
+
+    ESProvider(FactParser fact, RuleParser rule) throws Exception {
+        this.factRepository = fact.getFactRepository();
+        this.ruleRepository = rule.getRuleRepository();
+    }
+
+    public FactRepository getFactRepository() {
+        return factRepository;
+    }
+
+    public RuleRepository getRuleRepository() {
+        return ruleRepository;
     }
 }

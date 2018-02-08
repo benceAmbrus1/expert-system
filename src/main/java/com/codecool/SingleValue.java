@@ -2,8 +2,7 @@ package com.codecool;
 
 public class SingleValue extends Value{
 
-    String param;
-    boolean selectionType;
+    private String param;
 
     public SingleValue(String param, boolean selectionType){
         this.param = param;
