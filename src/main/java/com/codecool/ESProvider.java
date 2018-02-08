@@ -1,7 +1,5 @@
 package com.codecool;
 
-import java.util.HashMap;
-
 public class ESProvider {
 
     private FactRepository factRepository;
@@ -18,5 +16,17 @@ public class ESProvider {
 
     public RuleRepository getRuleRepository() {
         return ruleRepository;
+    }
+
+    public void collectAnswers(){
+
+    }
+
+    public Boolean getAnswerByQuestion(String questionID){
+        return true;
+    }
+
+    public String evaluate(){
+        return "hi";
     }
 }

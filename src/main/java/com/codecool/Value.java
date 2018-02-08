@@ -4,8 +4,8 @@ import java.util.List;
 
 public abstract class Value {
 
-    protected boolean selectionType;
-    private List<String> inputPatter;
+    boolean selectionType;
+    List<String> inputPatter;
 
     public List<String> getInputPattern() {
         return inputPatter;

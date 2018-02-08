@@ -29,7 +29,7 @@ public class Main {
             System.out.println(nextQ.getId());
             List<Value> values = nextQ.getAnswer().getValues();
             for (Value value:values) {
-                System.out.println(((SingleValue) value).getParam());
+                System.out.println(value.getInputPattern());
             }
         }
             System.out.println("------------------------------------------");
