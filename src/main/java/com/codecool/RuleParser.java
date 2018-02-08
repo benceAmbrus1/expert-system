@@ -24,7 +24,7 @@ public class RuleParser extends XMLParser {
                     Node mNode = answerList.item(temp2);
                     if (mNode.getNodeType() == Node.ELEMENT_NODE) {
                         Element answer = (Element) mNode;
-                        NodeList seletcions = answer.getElementsByTagName("Selections");
+                        NodeList seletcions = answer.getElementsByTagName("Selection");
                         Answer answers = new Answer();
                         for(int temp3 = 0; temp3 < seletcions.getLength(); temp3++) {
                             Node bNode = seletcions.item(temp3);
