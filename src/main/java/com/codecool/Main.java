@@ -27,8 +27,12 @@ public class Main {
             Question nextQ = questions.next();
             System.out.println(nextQ.getQuestion());
             System.out.println(nextQ.getId());
-            System.out.println(nextQ.getAnswer().getValues().size());
-            System.out.println("------------------------------------------");
+            List<Value> values = nextQ.getAnswer().getValues();
+            for (Value value:values) {
+                System.out.println(((SingleValue) value).getParam());
+            }
         }
+            System.out.println("------------------------------------------");
     }
 }
+
