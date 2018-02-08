@@ -7,7 +7,7 @@ public class FactIterator implements Iterator<Fact> {
 
 
     private List<Fact> facts;
-    private int current = 0;
+    private int current;
 
     public FactIterator(List<Fact> facts) {
         this.facts = facts;
